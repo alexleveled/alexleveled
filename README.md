@@ -1,18 +1,15 @@
-### Hi, I'm Alex Brown
+### Hey, I'm Alex
 
-I put AI to work inside real businesses. I don't train models; I take the ones that already exist (Claude, GPT, Gemini) and build the tools, agents and automations that plug them into how a company actually runs.
+All the things AI. Mostly building on top of Claude, GPT and Gemini: agents, automations, desktop apps, and whatever glue it takes to make them actually run.
 
-I'm a CPA who spent time at Deloitte before going all in on AI, so finance, accounting and other regulated work is where I'm most at home. These days I run [Leveled AI](https://leveledai.com).
+**Stuff I've built**
 
-**Some things I've built**
+- [**meeting-transcriber-desktop**](https://github.com/alexleveled/meeting-transcriber-desktop): real-time transcription that captures mic and system audio as two separate streams, so speaker attribution comes from the hardware instead of a model's guess. Chat with the transcript, with line-level citations. Next.js, Electron, WASAPI loopback, whisper.cpp.
+- [**fde-workflow-audit**](https://github.com/alexleveled/fde-workflow-audit): screen-activity capture, sessionization and transition mining, then a Claude vision pass that turns it into typed, priced automation opportunities. Python, SQLite, FastAPI.
+- [**Fender-AI-Presets**](https://github.com/alexleveled/Fender-AI-Presets): talks to a Fender amp over USB-HID with a reverse-engineered protobuf codec, separates a song's guitar with Demucs, and has Claude generate a matching preset. Electron, tRPC, Python sidecar.
 
-- [**meeting-transcriber-desktop**](https://github.com/alexleveled/meeting-transcriber-desktop): real-time meeting transcription that records your mic and the call audio separately, so it always knows who said what. Chat with the transcript, with a built-in sales coach. Next.js + Electron + whisper.cpp.
-- [**fde-workflow-audit**](https://github.com/alexleveled/fde-workflow-audit): watches how people work and turns it into a ranked, priced list of what to automate, integrate or cut. Python, SQLite, Claude vision.
-- [**Fender-AI-Presets**](https://github.com/alexleveled/Fender-AI-Presets): give it a YouTube song and it builds a matching guitar tone, then writes it straight to a Fender amp over USB. Electron, audio analysis, Claude.
+**Usually working in**
 
-**Get in touch**
+TypeScript · Python · Next.js · Electron · FastAPI · SQLite / Postgres · Claude Agent SDK · MCP
 
-- Website: [leveledai.com](https://leveledai.com)
-- Email: alex@leveledai.com
-
-If you've got a process that eats hours every week, I'd like to hear about it.
+[leveledai.com](https://leveledai.com)
